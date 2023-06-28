@@ -10,7 +10,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-/* Build works but a network related-related/ instance-specific error occured.
+/* Build works but a network-related/instance-specific error occured.
  * The server was not found or was not accessible.
  */
 

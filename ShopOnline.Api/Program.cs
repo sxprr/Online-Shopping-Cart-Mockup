@@ -13,6 +13,8 @@ builder.Services.AddSwaggerGen();
 /* Build works but a network-related/instance-specific error occured.
  * The server was not found or was not accessible.
  * Issue still isn't solved.
+ * 
+ * THIS IS HARD, STILL NOT FIXED 
  */
 
 builder.Services.AddDbContextPool<ShopOnlineDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("ShopOnlineConnection")));

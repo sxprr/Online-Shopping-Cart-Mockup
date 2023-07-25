@@ -15,6 +15,7 @@ builder.Services.AddSwaggerGen();
  * Issue still isn't solved.
  * Bug is still bothering me.
  * THIS IS HARD, STILL NOT FIXED 
+ * im gonna cry
  */
 
 builder.Services.AddDbContextPool<ShopOnlineDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("ShopOnlineConnection")));
